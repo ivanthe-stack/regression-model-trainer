@@ -10,7 +10,6 @@ An interactive neural network simulation playground built with Python and PyQt6.
 - **Multiple Activation Functions**: ReLU, Sigmoid, and Tanh activation functions
 - **Real-time Training**: Live training progress with loss and accuracy metrics
 - **Data Visualization**: Interactive plots of training data and decision boundaries
-- **Modern Dark UI**: Clean and intuitive user interface
 
 ## Quick Start
 
@@ -58,7 +57,7 @@ python run_playground.py
 3. **Install dependencies:**
    ```bash
    pip install --upgrade pip
-   pip install PyQt6 numpy matplotlib scikit-learn torch networkx
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -162,12 +161,9 @@ neural_networks/
 ├── neural_env/                    # Virtual environment
 ├── neural_network_playground.py   # Main application
 ├── run_playground.py             # Smart launcher
-├── demo.py                       # Command-line demo
 ├── test_installation.py          # Installation test
 ├── requirements.txt              # Dependencies
-├── activate_env.bat              # Environment activator
-├── README.md                     # This file
-└── SETUP.md                      # Detailed setup guide
+└──  README.md                     # This file
 ```
 
 ## Contributing
@@ -179,5 +175,6 @@ Feel free to contribute to this project by:
 - Enhancing the visualization capabilities
 
 ## License
+
 
 This project is open source and available under the MIT License. 
